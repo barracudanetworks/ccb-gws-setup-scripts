@@ -1,0 +1,12 @@
+# Ignore everything at the top level
+/*
+
+# Allow these top-level files
+!/.gitignore
+!/README.md
+!/LICENSE
+
+# Allow the scripts directory, but only Apps Script source files in it
+!/scripts/
+/scripts/*
+!/scripts/*.gs
